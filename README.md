@@ -1,7 +1,8 @@
-# Mogo
+# MongoDB
 
 ### 需要修正  .env 檔案
 	CONTAINER_NAME={NAME}					//容器名稱
+	COMPOSE_CONVERT_WINDOWS_PATHS={0|1}		//是否為Windows路徑(0:否; 1:是)	
 ### MONGO 相關設定
 	MONGO_VERSION={VERSION}				//MONGO 版本
 	MONGO_ROOT_USERNAME={ROOT USERNAME} //MONGO ROOT 帳號
